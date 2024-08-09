@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="es-mx">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>La magia encriptadora de Kirby</title>
+    <link rel="icon" type="image/x-icon" href="Imagenes/kirby-title.png">
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    
+    <header class="head">
+        <div class="logo-container">
+        <img class="logo" src="Imagenes/logo-kirby.png" alt="Logo de Kirby">
+    </div>
+    </header>
+
+    <main>
+        <section class="encriptador">
+            <textarea class="areaDeTexto" rows="20" cols="10" placeholder="Ingresa el texto aquí y observa la magia de Kirby"></textarea>
+            <div class="container">
+                <div class="mensajeAlerta">
+                    <img src="Imagenes/bi_exclamation-circle-fill.png" alt="Logo de exclamacion"> Solo letras minúsculas y sin acentos
+                </div>
+                <div class="contenedorDeBotones">
+                    <button class="encriptarBoton" onclick="encriptarBoton()">Encriptar</button>
+                    <button class="desencriptarBoton" onclick="desencriptarBoton()">Desencriptar</button>
+                </div>
+            </div>
+        </section>
+
+        <aside class="resultado">
+            <img src="Imagenes/lamagiadekirby.webp" alt="Kirby magica" class="resultadoImg">
+            <img src="Imagenes/kirbysupermagica.webp" alt="Kirby supermagica" class="resultadoImg imagenNueva" style="display: none;" >
+            <div class="resultadoContainer">
+                <textarea class="resultadoEncriptado" readonly></textarea>
+                <div class="resultadoTitulo">Ningún mensaje fue encontrado</div>
+                <p class="resultadoTexto">Ingresa el texto que desees encriptar o desencriptar.</p>
+                <button class="copiar" onclick="copiar()">Copiar</button>
+            </div>
+        </aside>
+    </main>
+
+    <footer>
+        <p class="footerTexto">Diseño realizado por la alumna Erika Frias, de Buenos Aires, Argentina. Julio, 2024</p>
+    </footer>
+<script src="script.js"></script>
+</body>
+</html>
