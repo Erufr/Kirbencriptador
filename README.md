@@ -1,2 +1,2 @@
 # Kirbencriptador
-Este es un encriptador de texto con la tematica de Kirby
+Este es un encriptador de texto responsive con la tematica de Kirby. El mismo funciona sólo con letras minúsculas, no funcionará si usas mayúsculas o caracteres especiales y usarlo es muy sencillo. Simplemente ingresa donde se te indica, el texto que deseas encriptar y luego clickea el botón Encriptar. A la derecha de tu pantalla aparecerá el texto que has ingresado, ya encriptado y también aparecerá un botón Copiar. Este mismo te permitirá copiar el texto ya encriptado para que puedas usarlo o desencriptarlo. Desencriptarlo es muy sencillo, solo tienes que relizar los mismos pasos para encritar, pero en vez de apretar el botón Encriptar, esta vez presionarás Desencriptar y ¡Listo! <3
