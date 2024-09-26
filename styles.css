@@ -68,7 +68,7 @@ main {
 
 .resultado {
     width: 350px;
-    height: auto;
+    height: fit-content;
     border-radius: 32px;
     background-color: var(--color-terciario);
     box-shadow: 3px 4px 8px rgba(0.5, 0.5, 0.5, 0.5);
